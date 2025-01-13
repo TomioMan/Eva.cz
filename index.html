@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVA</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="Javascript" href="javascript.js">
+
+    <script>
+        function setHalfVolume(){
+        var myAudio = document.getElementById("audio1");  
+        myAudio.volume = 0.2;
+        }
+    </script>
+    
+    <audio autoplay loop muted id="audio1" controls="controls" onloadeddata="setHalfVolume()" class="audio_tilt">
+        <source src="images/opening-creditless-full-hd-blu-ray-multi-language---neon-genesis-evangelion.mp4"  type="audio/mp3">
+    </audio>
+
+</head>
+<body style="overflow: hidden;">
+   <div class="heropage">
+        <div class="herovideo">
+            <video autoplay loop muted src="images/opening-creditless-full-hd-blu-ray-multi-language---neon-genesis-evangelion.mp4"></video>
+            <div class="herotext">
+                <a href="homepage_v2.html">NEON  GENESIS  EVANGELION</a>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

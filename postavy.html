@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        function setHalfVolume(){
+        var myAudio = document.getElementById("audio1");  
+        myAudio.volume = 0.1;
+        }
+    </script>
+    <audio autoplay loop id= "audio1" controls="controls" onloadeddata="setHalfVolume()">
+        <source src="sounds/hedgehogs-dilemma.mp3"  type="audio/mp3">
+    </audio>
+</head>
+<body>
+
+    <div>
+        <img class="plush_shinji" src="images/shinji_plush.png" alt="loser">
+        <img class="plush_rei" src="images/rei_plush.png" alt="rei">
+    </div>
+    <div class="home">
+        <p style="padding-top: 500px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ea consequuntur, facere quos voluptatibus quibusdam expedita at recusandae explicabo qui iure, perspiciatis quam quod doloribus esse possimus. Dolores, accusamus deserunt.</p>
+        <img src="https://st.cdjapan.co.jp/pictures/l/14/30/KIXA-880.jpg?v=1" alt="">
+    </div>
+
+</body>
+</html>

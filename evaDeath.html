@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death</title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        function setHalfVolume(){
+        var myAudio = document.getElementById("audio1");  
+        myAudio.volume = 0.1;
+        }
+    </script>
+    <audio autoplay loop id= "audio1" controls="controls" onloadeddata="setHalfVolume()" class="audio_invisible">
+        <source src="sounds/hedgehogs-dilemma.mp3"  type="audio/mp3">
+    </audio>
+
+    <style>
+        :root{
+            --primarni: #888888;
+            --sekundarni: #000000;
+        }
+        ::-webkit-scrollbar{
+            width: 0.8vh;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: var(--primarni);
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div><a href="#1"> <img src="images/RB0_Icon.png" style="width: 10vh;" alt=""></a></div>
+        <div><a href="#2">The end</a></div>
+        <div><a href="#3">Anything new?</a></div>
+    </nav>
+    <div class="main_container">
+        <div class="nadpis"> <h1>the sad end, of the sad world</h1> </div>
+
+        <h2 id="1" class="nadpis_sub">Neon Genesis Evangelion: Death & Rebirth</h2>
+        <div class="primary_container">
+            <div> <img src="images/The-end-of-evangelion.png" style="height: 45vh;" alt=""> </div>
+            <div> 
+                <h1>Alternative end the the original series</h1>
+                <p>The original series' end was at best anticlimactic, two episodes 
+                    of story telling and a happy end, yippee! but fans werent satisfied, the 
+                    end was obviously rushed to air, and the animation company even
+                     admited it after a little bit, so... they got to work...</p>
+                <p>In 1997, Neon Genesis Evangelion: Death & Rebirth was released as a 
+                    feature film, with the enegetic end that the fans craved and prayed 
+                    for.</p>
+                <h1>CAUSION!!! if you scroll further there might be spoilers</h1>
+            </div>
+        </div>
+        <h2 class="nadpis_sub" id="2">The end</h2>
+        <div class="primary_container">
+            <div> <img src="images/misatoNeckless.png" style="height: 45vh;" alt=""> </div>
+            <div> 
+                <h1>as all good stories, it ends with...</h1>
+                <p>The film smoothly transitions from episode 24 of the anime, and its 
+                    an alternative end the the original world, because the real ending 
+                    may never be discovered... 
+                <p style="opacity: 10%;" >Nah just kidding, it ends with the end of the world ;)</p>
+            </div>
+        </div>
+        <h2 id="3" class="nadpis_sub">Not much, but there's something new</h2>
+        <div class="primary_container">
+            <div> <img src="images/eva_massproduced.png" style="height: 65vh;" alt=""> </div>
+            <div> 
+                <h1>Mass Produced evangelion units</h1>
+                <p>The Mass-Produced Evangelion Units (also known as MP Evas or Eva 
+                    Series) are a terrifying group of nine Evangelion units introduced 
+                    toward the climax of the Evangelion story. They are piloted 
+                    remotely via bluetooth ;) <strong style="font-weight: normal; opacity: 10%;">(ITS A SPOILER I CANT SAY THE REAL THING!!!)</strong><br>
+                <br>
+                They are near-indestructible creations, designed to fulfill their apocalyptic 
+                plans. Their unsettling appearance, regeneration powers, and role in 
+                the final battle make them some of the most memorable and eerie 
+                opponents in End of Evangelion.</p>
+            </div>
+        </div>
+    <div>
+        <p style="padding-top: 7vh;"></p>
+    </div>
+</body>
+</html>

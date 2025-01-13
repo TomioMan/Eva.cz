@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+
+    <script>
+        function setHalfVolume(){
+        var myAudio = document.getElementById("audio1");  
+        myAudio.volume = 0.1;
+        }
+    </script>
+    
+    <audio autoplay loop id="audio1" controls="controls" onloadeddata="setHalfVolume()" class="audio_invisible">
+        <source src="sounds/a-fragile-ego-border.mp3"  type="audio/mp3">
+    </audio>
+
+    <div class="top_anchor"> <a href="heropage.html"> <img src="images/heropage_button.png" alt=""> </a> </div>
+
+</head>
+<body>
+    <div class="homepage">
+        <div class="home_button"> <a href="eva1995.html"> <h2 class="home_button_text">➤ evangelion 1995</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangelion1995_art_trans.png" alt=""> </div>
+        <div class="home_button"> <a href="#"> <h2 class="home_button_text">➤ evangelion: death</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangeliondeath_art_trans.png" alt=""> </div>
+        <div class="home_button"> <a href="#"> <h2 class="home_button_text">➤ evangelion: 1.0</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangelion1.0_art_trans.png" alt=""> </div>
+        <div class="home_button"> <a href="#"> <h2 class="home_button_text">➤ evangelion: 2.0</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangelion2.0_art_trans.png" alt=""> </div>
+        <div class="home_button"> <a href="#"> <h2 class="home_button_text">➤ evangelion: 3.0</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangelion3.0_art_trans.png" alt=""> </div>
+        <div class="home_button"> <a href="#"> <h2 class="home_button_text">➤ evangelion: 3.0 + 1.0</h2> </a> </div>
+        <div class="home_image"> <img src="/images/evangelion3.0+1.0_art_trans.png" alt=""> </div>
+    </div>
+</body>
+</html>
